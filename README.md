@@ -30,13 +30,13 @@ The dataset 100,000 ratings and 3,600 tag applications applied to 9,000 movies b
  * ratings: 'userId',  'movieId', 'rating', 'timestamp' 
  * tags: 'userId', 'movieId', 'tag', 'timestamp' 
  
-
+\
 * The target variable is rating.  
 * The main metric is Cumulative Hit Rate. Other metrics that wil be used are listed below.  
 * We intend to use Surprise library to test and develop a new Recommendation system.  
 * For hyper parameter tuning we will use GridSearchCV and RandomizedSearchCV. 
 * We will be following CRISP-DM process for this project. 
-
+\
 
 **Metrics**:\
 \
