@@ -49,7 +49,7 @@ The dataset 100,000 ratings and 3,600 tag applications applied to 9,000 movies b
 **Diversity:** 1-S, where S is the average similarity score between every possible pair of recommendations for a given            user. Higher means more diverse.\
 **Novelty:**   Average popularity rank of recommended items. Higher means more novel.
 
-Above metrics and coding associated with it came from Frank Kane's ['Building Recommender Systems with Machine Learning and AI' course](https://www.linkedin.com/learning/building-recommender-systems-with-machine-learning-and-ai/)
+Above metrics and coding associated with it came from Frank Kane's ['Building Recommender Systems with Machine Learning and AI' course'](https://www.linkedin.com/learning/building-recommender-systems-with-machine-learning-and-ai/)
 
 
 ## Rating Distribution:
