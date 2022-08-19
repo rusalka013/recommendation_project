@@ -4,18 +4,22 @@
 
 ## Overview
 
-For this project we will be analizing MovieLens data in order to develop a better performing recommendation system that will generate Top-N recommended movies to a client.
+For this project we will be analyzing MovieLens data in order to develop a better performing recommendation system that will generate Top-N recommended movies to a client.
 
 The objective:
 
 * to develop a Top-N movie recommendations for existing clients with an improved Cumulative Hit Rate (to ~ 0.05) for ratings >= 4.0.
+
+Stakeholder:
+
+* Engineering team
 
 
 ## Business Problem
 
 A movie streaming company is looking to fine-tune its recommendation system. After a recent survey and a followed up research it is finding that its current recommendation system is too overwhelming to clients and presents too many options (Top-N = 100) with some that are clearly irrelevant. Low engagement is also indicated by a low Hit Rate (0.01) of top recommenders.
 
-One of the main pain points for this project is a lack of active environment (a website) to perform A/B testing which would be the ultimate test for a new system. The second pain point is the lack of implicit data such as munites watched, clicks, browsing history, etc.
+One of the main pain points for this project is a lack of active environment (a website) to perform A/B testing which would be the ultimate test for a new system. The second pain point is the lack of implicit data such as minutes watched, clicks, browsing history, etc.
 
 
 ## Data Understanding and Methods
@@ -42,7 +46,8 @@ The dataset 100,000 ratings and 3,600 tag applications applied to 9,000 movies b
 \
 **RMSE:**      Root Mean Squared Error. Lower values mean better accuracy.\
 **MAE:**       Mean Absolute Error. Lower values mean better accuracy.\
-**HR:**       Hit Rate; how often we are able to recommend a left-out rating. Higher is better.\
+**HR:**        Hit Rate; how often we are able to recommend a left-out rating. Higher is better.\
+**rHR:**       Rated Hit Rate; hit rate broken down by rating scale.
 **cHR:**       Cumulative Hit Rate; hit rate, confined to ratings above a certain threshold. Higher is better.\
 **ARHR:**      Average Reciprocal Hit Rank - Hit rate that takes the ranking into account. Higher is better.\
 **Coverage:**  Ratio of users for whom recommendations above a certain threshold exist. Higher is better.\
@@ -101,8 +106,8 @@ Top 10 Recommendations:
 
 Business Recommendations: 
 
-* Untuned SDV and SVD++ models have produced the best cHR at 0.042 and RMSE (0.86) and MAE (SVD at 0.68 and SVD++ 0.66). 
-* SVD++ has output the best Top 10 recommendations with half of recommended movies that I would watch. 
+* Implement Popularity-based recommendation system for new users.
+* A/B test SVD and SVD++ recommendation models on website. 
 
 Next Steps: 
 * Further fine tune SVD and SVD++ models
