@@ -60,7 +60,7 @@ Above metrics and coding associated with it came from Frank Kane's ['Building Re
 ## Rating Distribution:
 
 * Rating scale is 0-5. 
-* Rating distribution is skewed right indicating that customers tend to leave positive ratings. 
+* Rating distribution is skewed left indicating that customers tend to leave positive ratings. 
 * The largest # of rating given is 4.0 followed by 3.0, 3.5 and 5. 
 
 ![alt text](https://github.com/rusalka013/recommendation_project/blob/main/Visuals/Rating_Distribution.png)
@@ -68,7 +68,7 @@ Above metrics and coding associated with it came from Frank Kane's ['Building Re
 
 ## Ratings Distribution by User
 
-* Ratings distribution by user is skewed left indicating that majority of users have left 20+ reviews. 
+* Ratings distribution by user is skewed right indicating that majority of users have left 20+ reviews. 
 * Few users left 100+ reviews. 
 
 ![alt text](https://github.com/rusalka013/recommendation_project/blob/main/Visuals/Ratings_dist_by_user.png)
