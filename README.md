@@ -43,7 +43,6 @@ The dataset 100,000 ratings and 3,600 tag applications applied to 9,000 movies b
 
 
 **Metrics**:\
-\
 
 | **Metric** | **Description** | **Interpretation** |
 |---|---|---|
