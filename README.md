@@ -42,7 +42,7 @@ The dataset 100,000 ratings and 3,600 tag applications applied to 9,000 movies b
 * We will be following CRISP-DM process for this project. 
 
 
-**Metrics**:\
+**Metrics**:
 
 | **Metric** | **Description** | **Interpretation** |
 |---|---|---|
