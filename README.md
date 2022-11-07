@@ -93,7 +93,7 @@ Top 10 Recommendations:
 ![alt text](https://github.com/rusalka013/recommendation_project/blob/main/Visuals/SVD_recs.png)
  
 
-## Untuned SVD++ MOdel 
+## Tuned SVD++ Model 
 
 Metrics:
 
